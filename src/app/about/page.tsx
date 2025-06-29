@@ -22,16 +22,16 @@ export default function AboutPage() {
 
         <div className="space-y-6 text-md text-gray-700 dark:text-gray-300 leading-relaxed">
           <p>
-            I’m Ganidu — a full-stack developer focused on crafting clean, scalable, and impactful digital experiences. I work across the stack using React, Laravel, Spring Boot, and .NET Core.
+            I&apos;m Ganidu — a full-stack developer focused on crafting clean, scalable, and impactful digital experiences. I work across the stack using React, Laravel, Spring Boot, and .NET Core.
           </p>
 
           <p>
-            My dev journey started with curiosity and a love for breaking (and fixing) things. Since then, I’ve contributed to production-level apps, worked with agile teams, and led academic projects powered by ML and computer vision.
+            My dev journey started with curiosity and a love for breaking (and fixing) things. Since then, I&apos;ve contributed to production-level apps, worked with agile teams, and led academic projects powered by ML and computer vision.
           </p>
 
           <div className="bg-gray-100 dark:bg-white/5 p-5 rounded-md shadow-sm border border-gray-200 dark:border-white/10">
             <p className="text-sm text-gray-800 dark:text-gray-200 italic">
-              "Building great software is about people first — the tools just help us get there."
+              &quot;Building great software is about people first — the tools just help us get there.&quot;
             </p>
           </div>
 
@@ -40,15 +40,15 @@ export default function AboutPage() {
           </p>
 
           <p>
-            Recently, I’ve been digging into AWS, Docker, and system design — trying to go beyond just writing code and into building reliable, scalable solutions.
+            Recently, I&apos;ve been digging into AWS, Docker, and system design — trying to go beyond just writing code and into building reliable, scalable solutions.
           </p>
 
           <p>
-            Outside of coding, I’m probably geeking out over a new dev tool, refactoring something I built last week, or helping someone debug an API that just won’t behave.
+            Outside of coding, I&apos;m probably geeking out over a new dev tool, refactoring something I built last week, or helping someone debug an API that just won&apos;t behave.
           </p>
 
           <p>
-            I hold a <span className="text-red-600 dark:text-red-400 font-medium">First Class Honours Bachelor’s Degree</span> in Software Engineering from the University of Westminster (IIT Sri Lanka), which laid the foundation for both my technical depth and professional discipline.
+            I hold a <span className="text-red-600 dark:text-red-400 font-medium">First Class Honours Bachelor&apos;s Degree</span> in Software Engineering from the University of Westminster (IIT Sri Lanka), which laid the foundation for both my technical depth and professional discipline.
           </p>
         </div>
 

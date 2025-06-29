@@ -14,7 +14,7 @@ export default function Hero() {
                 className="text-center md:text-left max-w-xl"
             >
                 <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-4 text-gray-900 dark:text-white">
-                    Hi, I'm Ganidu Gunasekara
+                    Hi, I&apos;m Ganidu Gunasekara
                 </h1>
 
                 <p className="text-lg text-gray-600 dark:text-gray-400 mb-2">

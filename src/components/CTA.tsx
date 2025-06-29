@@ -12,11 +12,11 @@ export default function CTA() {
       className="py-24 text-center border-t border-gray-200 dark:border-gray-800"
     >
       <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-        Let’s Work Together
+        Let&apos;s Work Together
       </h2>
       <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
         Open to freelance projects, full-time roles, or collaboration opportunities.
-        I’d love to hear from you!
+        I&apos;d love to hear from you!
       </p>
       <a
         href="/contact"

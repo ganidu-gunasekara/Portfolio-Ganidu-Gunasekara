@@ -21,11 +21,11 @@ export default function AboutPreview() {
                     </h2>
 
                     <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-                        I’m a full-stack web developer and First Class Honours graduate in Software Engineering from the University of Westminster (IIT Sri Lanka), passionate about building real, practical software — whether it’s a clean Laravel API, a responsive React UI, or a full-stack application from the ground up.
+                        I&apos;m a full-stack web developer and First Class Honours graduate in Software Engineering from the University of Westminster (IIT Sri Lanka), passionate about building real, practical software — whether it&apos;s a clean Laravel API, a responsive React UI, or a full-stack application from the ground up.
                     </p>
 
                     <p className="text-md text-gray-600 dark:text-gray-400 mb-8">
-                        I enjoy turning ideas into usable tools and learning by doing. Recently, I’ve been exploring cloud platforms like AWS, and digging deeper into building scalable backend systems with Spring Boot and .NET Core.
+                        I enjoy turning ideas into usable tools and learning by doing. Recently, I&apos;ve been exploring cloud platforms like AWS, and digging deeper into building scalable backend systems with Spring Boot and .NET Core.
                     </p>
 
                     <p className="text-sm text-center text-red-600 dark:text-red-400 mb-10">

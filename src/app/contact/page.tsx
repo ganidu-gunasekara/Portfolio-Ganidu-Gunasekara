@@ -19,7 +19,7 @@ export default function ContactPage() {
 
         <p className="text-md text-gray-600 dark:text-gray-400 mb-8">
           Want to work together, collaborate on something, or just say hello?
-          Feel free to reach out — I’d love to hear from you!
+          Feel free to reach out — I&apos;d love to hear from you!
         </p>
 
         {/* Email block */}
