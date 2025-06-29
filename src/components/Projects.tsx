@@ -13,59 +13,74 @@ type Project = {
 };
 
 const allProjects: Project[] = [
-    {
-        title: 'BoneScope',
-        description:
-            'A Laravel-based X-ray image analysis system with integrated Python ML models for detecting fractures.',
-        stack: ['Laravel', 'Python', 'REST API'],
-        github: 'https://github.com/ganidu12/final-year-project',
-        type: 'Academic',
-    },
-    {
-        title: 'React Clothing Website',
-        description:
-            'A modern clothing website frontend built using React and Next.js with reusable components.',
-        stack: ['React', 'Next.js', 'Tailwind CSS'],
-        type: 'Personal',
-    },
-    {
-        title: 'Parent Teacher Mobile',
-        description:
-            'Full-stack mobile communication platform between parents and teachers. Built Laravel backend and contributed to mobile frontend UI and features.',
-        stack: ['Laravel', 'REST API', 'Mobile UI'],
-        type: 'Internship',
-    },
-    {
-        title: 'Currency Mate',
-        description:
-            'Mobile app for visually impaired users to identify currency using object detection via Python and Flutter.',
-        stack: ['Python', 'YOLO', 'Flutter'],
-        github: 'https://github.com/pushpe1174/SDGP',
-        type: 'Academic',
-    },
-    {
-        title: 'Examiner',
-        description:
-            'Migrated legacy payment system to Google/Apple Pay, with backend API integration and UI fixes.',
-        stack: ['Laravel', 'Custom APIs'],
-        type: 'Internship',
-    },
-    {
-        title: 'HR Management System',
-        description:
-            'Employee and leave tracking system built using Laravel. Improved frontend UX and resolved UI bugs.',
-        stack: ['Laravel', 'Blade', 'MySQL'],
-        type: 'Internship',
-    },
-    {
-        title: '.NET Core CRUD API',
-        description:
-            'RESTful API built using ASP.NET Core and Entity Framework, following clean architecture principles.',
-        stack: ['.NET Core', 'MySQL', 'Entity Framework'],
-        github: 'https://github.com/ganidu12',
-        type: 'Personal',
-    },
+  {
+    title: 'Lesko – Social Media Platform',
+    description:
+      'Developed backend features using Spring Boot and MySQL: user auth, posts, likes/comments. Designed RESTful APIs for frontend integration and optimized queries for performance.',
+    stack: ['Spring Boot', 'MySQL', 'REST APIs'],
+    type: 'Internship',
+  },
+  {
+    title: 'React Clothing Website',
+    description:
+      'A modern clothing website frontend built using React and Next.js with reusable components.',
+    stack: ['React', 'Next.js', 'Tailwind CSS'],
+    type: 'Personal',
+  },
+  {
+    title: 'BoneScope',
+    description:
+      'A Laravel-based X-ray image analysis system with integrated Python ML models for detecting fractures.',
+    stack: ['Laravel', 'Python', 'REST API'],
+    github: 'https://github.com/ganidu12/final-year-project',
+    type: 'Academic',
+  },
+  {
+    title: '.NET Core CRUD API',
+    description:
+      'RESTful API built using ASP.NET Core and Entity Framework, following clean architecture principles.',
+    stack: ['.NET Core', 'MySQL', 'Entity Framework'],
+    github: 'https://github.com/ganidu12',
+    type: 'Personal',
+  },
+  {
+    title: 'Currency Mate',
+    description:
+      'Mobile app for visually impaired users to identify currency using object detection via Python and Flutter.',
+    stack: ['Python', 'YOLO', 'Flutter'],
+    github: 'https://github.com/pushpe1174/SDGP',
+    type: 'Academic',
+  },
+  {
+    title: 'Tebeka – Web Application',
+    description:
+      'Contributed to backend APIs in Spring Boot and improved frontend UI/UX. Worked on full-stack features with a focus on integration and stability.',
+    stack: ['Spring Boot', 'Java', 'REST APIs', 'JavaScript', 'HTML', 'CSS'],
+    type: 'Internship',
+  },
+  {
+    title: 'Parent Teacher Mobile',
+    description:
+      'Full-stack mobile communication platform between parents and teachers. Built Laravel backend and contributed to mobile frontend UI and features.',
+    stack: ['Laravel', 'REST API', 'Mobile UI'],
+    type: 'Internship',
+  },
+  {
+    title: 'Examiner',
+    description:
+      'Migrated legacy payment system to Google/Apple Pay, with backend API integration and UI fixes.',
+    stack: ['Laravel', 'Custom APIs'],
+    type: 'Internship',
+  },
+  {
+    title: 'HR Management System',
+    description:
+      'Employee and leave tracking system built using Laravel. Improved frontend UX and resolved UI bugs.',
+    stack: ['Laravel', 'Blade', 'MySQL'],
+    type: 'Internship',
+  },
 ];
+
 
 
 export default function Projects({ limit, animateOnLoad = false }: { limit?: number; animateOnLoad?: boolean }) {
