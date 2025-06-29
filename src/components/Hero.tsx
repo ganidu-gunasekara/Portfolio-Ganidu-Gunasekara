@@ -5,7 +5,8 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
     return (
-        <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-12 pt-8 min-h-[calc(100vh-5rem)]">
+        <section className="flex flex-col-reverse md:flex-row items-center justify-center gap-12 pt-8 min-h-[calc(100vh-5rem)]">
+
 
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
@@ -54,7 +55,7 @@ export default function Hero() {
 
             <motion.div
                 style={{ backgroundColor: 'transparent' }}
-                className="w-[450px] h-[450px] rounded-full overflow-hidden border-2 border-red-600 shadow-2xl transition-transform duration-300 hover:scale-105"
+                className="flex justify-center items-center w-full md:w-[450px] h-[450px] md:h-[450px] rounded-full overflow-hidden border-2 border-red-600 shadow-2xl transition-transform duration-300 hover:scale-105"
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -64,7 +65,7 @@ export default function Hero() {
                     alt="Ganidu Gunasekara"
                     width={450}
                     height={450}
-                    className="w-full h-full object-cover"
+                    className="object-cover w-full h-full"
                     priority
                 />
             </motion.div>
