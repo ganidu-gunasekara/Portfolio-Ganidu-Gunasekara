@@ -25,6 +25,7 @@ const allProjects: Project[] = [
     description:
       'A modern clothing website frontend built using React and Next.js with reusable components.',
     stack: ['React', 'Next.js', 'Tailwind CSS'],
+    github: 'https://github.com/ganidu-gunasekara/personal-project-site',
     type: 'Personal',
   },
   {
@@ -32,7 +33,7 @@ const allProjects: Project[] = [
     description:
       'A Laravel-based X-ray image analysis system with integrated Python ML models for detecting fractures.',
     stack: ['Laravel', 'Python', 'REST API'],
-    github: 'https://github.com/ganidu12/final-year-project',
+    github: 'https://github.com/ganidu-gunasekara/final-year-project',
     type: 'Academic',
   },
   {
@@ -40,7 +41,6 @@ const allProjects: Project[] = [
     description:
       'RESTful API built using ASP.NET Core and Entity Framework, following clean architecture principles.',
     stack: ['.NET Core', 'MySQL', 'Entity Framework'],
-    github: 'https://github.com/ganidu12',
     type: 'Personal',
   },
   {

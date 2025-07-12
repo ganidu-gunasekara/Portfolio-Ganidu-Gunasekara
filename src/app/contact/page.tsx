@@ -36,7 +36,7 @@ export default function ContactPage() {
         {/* Social links */}
         <div className="flex gap-6 items-center text-gray-600 dark:text-gray-400 mb-12">
           <a
-            href="https://github.com/ganidu12"
+            href="https://github.com/ganidu-gunasekara/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-red-600 dark:hover:text-red-400 flex items-center gap-2"
